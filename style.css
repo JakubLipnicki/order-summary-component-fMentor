@@ -1,0 +1,49 @@
+/* font-family: 'Karla', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+
+body{
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+p{
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+.container{
+    min-height: 80%;
+    max-height: 85%;
+    background-color: white;
+    margin: 3rem 1rem 3rem 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: 0 1.1em 1em 1.1em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 15px;
+}
+.buttons{
+    width: 80%;
+}
+#hero-image{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+p, h1,  span, .buttons{
+    padding: 1em 1.5em 1em 1.5em;
+    text-align: center;
+    margin: 0;
+}
